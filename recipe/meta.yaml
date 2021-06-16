@@ -1,6 +1,5 @@
 {% set name = "python-dwca-reader" %}
-{% set version = "0.15.0" %}
-{% set hash_val = "34c4183794b2057ea6314e50d929defbbb8be21e207d9eb6ee517b5370724703" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ hash_val }}
+  sha256: 56adb8d78e00c952951fc5bc8ec086d6c18e94fb1f95cc5cc2df51a3b77e2279
 
 build:
   number: 0
@@ -42,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - jwcook
+    - ocefpaf
