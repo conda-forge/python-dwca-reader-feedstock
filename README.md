@@ -1,11 +1,11 @@
-About python-dwca-reader
-========================
+About python-dwca-reader-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-dwca-reader-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/BelgianBiodiversityPlatform/python-dwca-reader
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-dwca-reader-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple Python package to read Darwin Core Archive (DwC-A) files.
 
