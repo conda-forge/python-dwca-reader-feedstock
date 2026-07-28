@@ -1,13 +1,13 @@
 {% set name = "python-dwca-reader" %}
-{% set version = "0.16.4" %}
-{% set hash_val = "cfd26278346e9828716af1525a34ab0d2b6cd847bc261fd475611b23ae5ccc5e" %}
+{% set version = "0.17.0" %}
+{% set hash_val = "43f9d2b8413a5af0afc1daddabca24057faaca3ef57c85b7cf2e4106dfd94484" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ hash_val }}
 
 build:
