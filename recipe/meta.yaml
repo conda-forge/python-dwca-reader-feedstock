@@ -1,6 +1,6 @@
 {% set name = "python-dwca-reader" %}
-{% set version = "0.17.0" %}
-{% set hash_val = "43f9d2b8413a5af0afc1daddabca24057faaca3ef57c85b7cf2e4106dfd94484" %}
+{% set version = "0.17.1" %}
+{% set hash_val = "12a284ae578dd0855046b04a98b61294ee820bc24e00cecf862c75fca224548c" %}
 
 package:
   name: {{ name|lower }}
